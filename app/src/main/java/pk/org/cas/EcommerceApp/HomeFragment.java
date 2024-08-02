@@ -1,4 +1,4 @@
-package pk.org.cas.finalproject;
+package pk.org.cas.EcommerceApp;
 
 import android.content.Intent;
 import android.os.Bundle;

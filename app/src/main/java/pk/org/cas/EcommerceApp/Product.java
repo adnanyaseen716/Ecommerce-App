@@ -1,4 +1,4 @@
-package pk.org.cas.finalproject;
+package pk.org.cas.EcommerceApp;
 
 import java.util.Objects;
 

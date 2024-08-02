@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "pk.org.cas.finalproject"
+    namespace = "pk.org.cas.EcommerceApp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "pk.org.cas.finalproject"
+        applicationId = "pk.org.cas.EcommerceApp"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

@@ -1,4 +1,4 @@
-package pk.org.cas.finalproject;
+package pk.org.cas.EcommerceApp;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("pk.org.cas.finalproject", appContext.getPackageName());
+        assertEquals("pk.org.cas.EcommerceApp", appContext.getPackageName());
     }
 }
