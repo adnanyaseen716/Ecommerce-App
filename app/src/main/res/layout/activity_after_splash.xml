@@ -9,6 +9,7 @@
     android:layout_height="match_parent"
     tools:context=".AfterSplash">
 
+
     <Button
         android:id="@+id/btnSeller"
         android:layout_width="match_parent"
