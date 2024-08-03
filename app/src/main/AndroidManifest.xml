@@ -13,13 +13,13 @@
         android:theme="@style/Theme.EcommerceApp"
         tools:targetApi="31">
         <activity
-            android:name=".AfterSplash"
+            android:name=".Splash.AfterSplash"
             android:exported="false" />
         <activity
-            android:name=".NotificationActivity"
+            android:name=".Home.NotificationActivity"
             android:exported="false" />
         <activity
-            android:name=".Product"
+            android:name=".Home.Product"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

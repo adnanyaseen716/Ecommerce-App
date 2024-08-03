@@ -1,4 +1,4 @@
-package pk.org.cas.EcommerceApp;
+package pk.org.cas.EcommerceApp.Home;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,9 +11,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
+import pk.org.cas.EcommerceApp.R;
+
 public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductViewHolder>{
     List<Product> productList;
-    OnItemClickListener onItemClickListener;
+    private OnItemClickListener onItemClickListener;
 
     public void setOnItemClickListener(OnItemClickListener onItemClickListener) {
         this.onItemClickListener = onItemClickListener;
@@ -44,7 +46,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
         return productList.size();
     }
 
-    class ProductViewHolder extends RecyclerView.ViewHolder {
+    public class ProductViewHolder extends RecyclerView.ViewHolder {
         ImageView ivProductImage;
         TextView tvProductName, tvProductPrice, tvProductRating;
         public ProductViewHolder(@NonNull View itemView) {
@@ -65,7 +67,7 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.ProductV
         }
     }
 
-    interface OnItemClickListener{
+    public interface OnItemClickListener{
         void onItemClick(ProductViewHolder holder, int position);
     }
 }
