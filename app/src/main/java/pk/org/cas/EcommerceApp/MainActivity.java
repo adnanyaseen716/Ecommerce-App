@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
         frameLayout = findViewById(R.id.frameLayout);
         bottomNavigationView = findViewById(R.id.bottom_navigation);
 
+// When app is run for the first time, home fragment will be loaded automatically.
+        loadFragment(new HomeFragment());
 
         bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
