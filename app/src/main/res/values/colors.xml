@@ -5,7 +5,13 @@
     <color name="red">#FFD31E1E</color>
     <color name="lightBlue">#2196F3</color>
 
+
+    <color name="appColor">#FFD31E1E</color>
+
+</resources>
+
     <color name="btn_color">#db3022</color>
 
 </resources>
+
 

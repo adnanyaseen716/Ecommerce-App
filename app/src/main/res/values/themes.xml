@@ -10,6 +10,14 @@
     </style>
 
 
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+
+
     <style name="large_txt_theme" >
         <item name="android:textSize">@dimen/large_txt_size</item>
         <item name="android:textColor">@color/black</item>
