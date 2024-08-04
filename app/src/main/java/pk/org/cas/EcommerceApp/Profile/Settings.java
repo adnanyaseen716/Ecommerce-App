@@ -1,4 +1,4 @@
-package pk.org.cas.EcommerceApp;
+package pk.org.cas.EcommerceApp.Profile;
 
 import android.os.Bundle;
 import android.widget.Button;
@@ -8,6 +8,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SwitchCompat;
 
 import com.google.android.material.bottomsheet.BottomSheetDialog;
+
+import pk.org.cas.EcommerceApp.R;
 
 public class Settings extends AppCompatActivity {
     EditText etFullname, etDateOfBirth, etPassword;

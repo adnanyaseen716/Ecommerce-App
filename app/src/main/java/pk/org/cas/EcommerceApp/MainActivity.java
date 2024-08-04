@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 int itemId = menuItem.getItemId();
-
                 if(itemId == R.id.home){
                     loadFragment(new HomeFragment());
                 }
@@ -61,3 +60,4 @@ public class MainActivity extends AppCompatActivity {
         transaction.commit();
     }
 }
+

@@ -13,26 +13,22 @@
         android:theme="@style/Theme.EcommerceApp"
         tools:targetApi="31">
         <activity
-<<<<<<< HEAD
+            android:name=".Profile.Settings"
+            android:exported="false" />
+        <activity
+            android:name=".Profile.MyReviews"
+            android:exported="false" />
+        <activity
+            android:name=".Profile.ShippingAddress"
+            android:exported="false" />
+        <activity
+            android:name=".Profile.Orders"
+            android:exported="false" />
+        <activity
+            android:name=".Profile.OrderDetails"
+            android:exported="false" />
+        <activity
             android:name=".Splash.AfterSplash"
-=======
-            android:name=".Settings"
-            android:exported="false" />
-        <activity
-            android:name=".MyReviews"
-            android:exported="false" />
-        <activity
-            android:name=".ShippingAddress"
-            android:exported="false" />
-        <activity
-            android:name=".Orders"
-            android:exported="false" />
-        <activity
-            android:name=".OrderDetails"
-            android:exported="false" />
-        <activity
-            android:name=".AfterSplash"
->>>>>>> 33a1135e798fe7af4b9cafb94a970254e194236c
             android:exported="false" />
         <activity
             android:name=".Home.NotificationActivity"

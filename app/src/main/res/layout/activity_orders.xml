@@ -6,7 +6,7 @@
     android:background="@color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Orders">
+    tools:context=".Profile.Orders">
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnBack"

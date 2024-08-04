@@ -1,4 +1,4 @@
-package pk.org.cas.EcommerceApp;
+package pk.org.cas.EcommerceApp.Profile;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,6 +11,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import java.util.List;
+
+import pk.org.cas.EcommerceApp.R;
 
 public class ProductViewAdaptor extends RecyclerView.Adapter<ProductViewAdaptor.ProductViewHolder>{
     private List<ProductModel> productModelList;

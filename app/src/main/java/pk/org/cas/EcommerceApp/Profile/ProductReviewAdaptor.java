@@ -1,4 +1,4 @@
-package pk.org.cas.EcommerceApp;
+package pk.org.cas.EcommerceApp.Profile;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,6 +11,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
+
+import pk.org.cas.EcommerceApp.R;
 
 public class ProductReviewAdaptor extends RecyclerView.Adapter<ProductReviewAdaptor.ProductReviewViewHolder> {
 

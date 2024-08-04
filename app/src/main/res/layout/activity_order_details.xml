@@ -7,7 +7,7 @@
     android:layout_height="wrap_content"
     android:minHeight="1000dp"
     android:background="@color/white"
-    tools:context=".OrderDetails">
+    tools:context=".Profile.OrderDetails">
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnBack"
