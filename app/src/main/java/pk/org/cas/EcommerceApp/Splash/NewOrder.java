@@ -1,4 +1,4 @@
-package pk.org.cas.EcommerceApp;
+package pk.org.cas.EcommerceApp.Splash;
 
 import java.util.Objects;
 

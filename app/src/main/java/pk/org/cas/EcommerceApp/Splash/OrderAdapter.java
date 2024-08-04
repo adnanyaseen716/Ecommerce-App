@@ -1,4 +1,4 @@
-package pk.org.cas.EcommerceApp;
+package pk.org.cas.EcommerceApp.Splash;
 
 
 import android.view.LayoutInflater;
@@ -12,6 +12,8 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
+
+import pk.org.cas.EcommerceApp.R;
 
 public class OrderAdapter extends RecyclerView.Adapter<OrderAdapter.orderViewHolder> {
     private List<NewOrder> newOrders;

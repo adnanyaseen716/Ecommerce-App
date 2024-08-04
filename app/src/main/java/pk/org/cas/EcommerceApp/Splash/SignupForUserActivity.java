@@ -1,4 +1,4 @@
-package pk.org.cas.EcommerceApp;
+package pk.org.cas.EcommerceApp.Splash;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -10,11 +10,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+
+import pk.org.cas.EcommerceApp.R;
 
 public class SignupForUserActivity extends AppCompatActivity {
     EditText etFullName,etEmailAddressSignup,etPhoneNumber,etAddress,etPasswordSignup;

@@ -13,32 +13,34 @@
         android:theme="@style/Theme.EcommerceApp"
         tools:targetApi="31">
         <activity
-
-            android:name=".NewOrderItemClickedActivity"
+            android:name=".Splash.AfterSplash"
             android:exported="false" />
         <activity
-            android:name=".NewOrderItemClicked"
+            android:name=".Splash.ForgetPasswordForUserActivity"
             android:exported="false" />
         <activity
-            android:name=".SellerNewOrderActivity"
+            android:name=".Splash.LoginForUserActivity"
             android:exported="false" />
         <activity
-            android:name=".MyItemSellerActivity"
+            android:name=".Splash.MyItemSellerActivity"
             android:exported="false" />
         <activity
-            android:name=".ForgetPasswordForUserActivity"
+            android:name=".Splash.NewOrderItemClickedActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginForUserActivity"
+            android:name=".Splash.NextToSignupActivity"
             android:exported="false" />
         <activity
-            android:name=".NextToSignupActivity"
+            android:name=".Splash.SellerNewOrderActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashScreenActivity"
+            android:name=".Splash.SignupForUserActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".Splash.SplashScreenActivity"
             android:exported="false" />
         <activity
-            android:name=".Profile.Settings
+            android:name=".Profile.Settings"
             android:exported="false" />
         <activity
             android:name=".Profile.MyReviews"
@@ -51,9 +53,6 @@
             android:exported="false" />
         <activity
             android:name=".Profile.OrderDetails"
-            android:exported="false" />
-        <activity
-            android:name=".Splash.AfterSplash"
             android:exported="false" />
         <activity
             android:name=".Home.NotificationActivity"

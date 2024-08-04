@@ -1,4 +1,4 @@
-package pk.org.cas.EcommerceApp;
+package pk.org.cas.EcommerceApp.Splash;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -7,17 +7,15 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import pk.org.cas.EcommerceApp.R;
 
 public class SellerNewOrderActivity extends AppCompatActivity {
     CardView cvNewOrders;

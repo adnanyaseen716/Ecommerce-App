@@ -1,6 +1,5 @@
-package pk.org.cas.EcommerceApp;
+package pk.org.cas.EcommerceApp.Splash;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
@@ -9,11 +8,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+
+import pk.org.cas.EcommerceApp.MainActivity;
+import pk.org.cas.EcommerceApp.R;
 
 public class LoginForUserActivity extends AppCompatActivity {
     EditText etEmailAddressLogin,etPasswordLogin;
