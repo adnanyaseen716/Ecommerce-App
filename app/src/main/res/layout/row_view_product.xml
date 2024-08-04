@@ -12,7 +12,7 @@
     android:layout_marginEnd="5dp"
     android:layout_marginTop="5dp"
     app:cardBackgroundColor="#5799CE"
-    tools:context=".Product">
+    tools:context=".Home.Product">
 
     <LinearLayout
         android:layout_width="180dp"

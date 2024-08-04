@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".FavouriteFragment">
+    tools:context=".Favourite.FavouriteFragment">
+
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBar"
@@ -49,7 +50,6 @@
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="@id/guideline16"
         app:layout_constraintStart_toStartOf="@id/guideline15"/>
-
 
 
     <!--    Constraints Guidelines.-->

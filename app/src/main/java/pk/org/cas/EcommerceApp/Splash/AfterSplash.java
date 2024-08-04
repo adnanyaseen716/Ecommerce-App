@@ -1,8 +1,10 @@
-package pk.org.cas.EcommerceApp;
+package pk.org.cas.EcommerceApp.Splash;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import pk.org.cas.EcommerceApp.R;
 
 public class AfterSplash extends AppCompatActivity {
 

@@ -4,4 +4,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="red">#FFD31E1E</color>
     <color name="lightBlue">#2196F3</color>
+
+    <color name="btn_color">#db3022</color>
+
 </resources>
+
