@@ -1,4 +1,4 @@
-package pk.org.cas.EcommerceApp;
+package pk.org.cas.EcommerceApp.Favourite;
 
 import android.os.Bundle;
 
@@ -14,6 +14,10 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import pk.org.cas.EcommerceApp.Home.Product;
+import pk.org.cas.EcommerceApp.Home.ProductAdapter;
+import pk.org.cas.EcommerceApp.R;
 
 public class FavouriteFragment extends Fragment {
     View view;

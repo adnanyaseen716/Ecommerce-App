@@ -13,6 +13,11 @@ import androidx.fragment.app.FragmentTransaction;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 
+import pk.org.cas.EcommerceApp.Cart.CartFragment;
+import pk.org.cas.EcommerceApp.Favourite.FavouriteFragment;
+import pk.org.cas.EcommerceApp.Home.HomeFragment;
+import pk.org.cas.EcommerceApp.Profile.ProfileFragment;
+
 // This is the Home page of our app.
 public class MainActivity extends AppCompatActivity {
     FrameLayout frameLayout;
@@ -32,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 int itemId = menuItem.getItemId();
-
                 if(itemId == R.id.home){
                     loadFragment(new HomeFragment());
                 }
@@ -58,3 +62,4 @@ public class MainActivity extends AppCompatActivity {
         transaction.commit();
     }
 }
+
