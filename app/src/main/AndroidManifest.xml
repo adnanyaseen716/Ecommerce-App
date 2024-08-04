@@ -13,8 +13,7 @@
         android:theme="@style/Theme.EcommerceApp"
         tools:targetApi="31">
         <activity
-
-            android:name=".ProductOnclick"
+            android:name=".Home.ProductOnclick"
             android:exported="false" />
         <activity
             android:name=".Splash.AfterSplash"
